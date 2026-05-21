@@ -7,3 +7,7 @@
 Добавлена статья «Дрессировка и воспитание личного автономного AI‑агента на VPS (Hermes Agent вместо OpenClaw)» от Neo Davinchi.
 - raw: habr_1032656_hermes_agent.txt
 - wiki: [[wiki/sources/hermes-agent-habr-article]], [[wiki/concepts/hermes-agent]]
+
+## [2026-05-20] idea | Приложение-звонилка
+Добавлена идея: приложение для телефонных звонков-напоминаний.
+- wiki: [[wiki/queries/prilozhenie-zvonilka]]
