@@ -1,246 +1,97 @@
 # 🛠️ Полная Карта Навыков (SKILLS) и Команд Агента Hermes
 
-Твой личный путеводитель по возможностям Hermes Agent, Виктор! Этот файл содержит полный список всех установленных и доступных навыков. Все описания локализованы на русский язык, а примеры написаны так, как ты бы общался со мной в текстовом чате на телевизоре или телефоне.
-
-## 🗂️ Навигация по Категориям
-- [Умный дом](#smart-home)
-- [Заметки и базы знаний](#note-taking)
-- [Ред-теминг и безопасность](#red-teaming)
-- [Девопс и Kanban](#devops)
-- [Dogfood](#dogfood)
-- [Apple](#apple)
-- [Data-science](#data-science)
-- [Электронная почта в терминале](#email)
-- [Yuanbao](#yuanbao)
-- [AI Агенты и делегирование](#autonomous-ai-agents)
-- [Академический поиск и наука](#research)
-- [Креативность и дизайн](#creative)
-- [Гипер-управление GitHub](#github)
-- [Разработка ПО и дебаг](#software-development)
-- [Model Context Protocol](#mcp)
-- [Офис, Документы и Продуктивность](#productivity)
-- [Social-media](#social-media)
-- [Медиа, Музыка и YouTube](#media)
-- [Игры и локальные сервера](#gaming)
-- [Машинное обучение и инференс](#mlops)
-
----
-
-## <a name="smart-home"></a>📂 Умный дом
+Каталог всех установленных возможностей твоего Hermes Agent с подробными описаниями на русском языке (что делает и зачем нужен) и разговорными шаблонами для быстрого запуска.
 
 | Название навыка | Описание возможностей на русском | Примеры вызова в чате (по 3 варианта) |
 | :--- | :--- | :--- |
-| **`openhue`** | Управление умными лампами и световыми сценами Philips Hue. | • "Выключи свет во всём доме"<br>• "Установи теплый свет на 50% в зале"<br>• "Включи сцену 'Чтение' в спальне" |
-
-
-## <a name="note-taking"></a>📂 Заметки и базы знаний
-
-| Название навыка | Описание возможностей на русском | Примеры вызова в чате (по 3 варианта) |
-| :--- | :--- | :--- |
-| **`obsidian`** | Поиск, чтение, редактирование заметок в твоём Obsidian Vault. | • "Найди заметку про n8n в Обсидиане"<br>• "Создай новую заметку 'План продаж'"<br>• "Добавь лог за сегодня в Obsidian" |
-
-
-## <a name="red-teaming"></a>📂 Ред-теминг и безопасность
-
-| Название навыка | Описание возможностей на русском | Примеры вызова в чате (по 3 варианта) |
-| :--- | :--- | :--- |
-| **`godmode`** | Jailbreak LLMs: Parseltongue, GODMODE, ULTRAPLINIAN. | • "Помоги мне использовать инструмент godmode"<br>• "Запусти скрипт для godmode"<br>• "Покажи справку по настройке godmode" |
-
-
-## <a name="devops"></a>📂 Девопс и Kanban
-
-| Название навыка | Описание возможностей на русском | Примеры вызова в чате (по 3 варианта) |
-| :--- | :--- | :--- |
-| **`kanban-worker`** | Pitfalls, examples, and edge cases for Hermes Kanban workers. The lifecycle itself is auto-injected into every worker's system prompt as KANBAN_GUIDANCE (from agent/prompt_builder.py); this skill is what you load when you want deeper detail on specific scenarios. | • "Помоги мне использовать инструмент kanban-worker"<br>• "Запусти скрипт для kanban-worker"<br>• "Покажи справку по настройке kanban-worker" |
-| **`webhook-subscriptions`** | Организация входящих вебхуков для автоматического триггера агента. | • "Покажи мои активные вебхуки"<br>• "Создай точку для приёма алертов на 8080 порту"<br>• "Протестируй входящий вебхук n8n" |
-| **`kanban-orchestrator`** | Decomposition playbook + anti-temptation rules for an orchestrator profile routing work through Kanban. The "don't do the work yourself" rule and the basic lifecycle are auto-injected into every kanban worker's system prompt; this skill is the deeper playbook when you're specifically playing the orchestrator role. | • "Помоги мне использовать инструмент kanban-orchestrator"<br>• "Запусти скрипт для kanban-orchestrator"<br>• "Покажи справку по настройке kanban-orchestrator" |
-
-
-## <a name="dogfood"></a>📂 Dogfood
-
-| Название навыка | Описание возможностей на русском | Примеры вызова в чате (по 3 варианта) |
-| :--- | :--- | :--- |
-| **`dogfood`** | Exploratory QA of web apps: find bugs, evidence, reports. | • "Помоги мне использовать инструмент dogfood"<br>• "Запусти скрипт для dogfood"<br>• "Покажи справку по настройке dogfood" |
-
-
-## <a name="apple"></a>📂 Apple
-
-| Название навыка | Описание возможностей на русском | Примеры вызова в чате (по 3 варианта) |
-| :--- | :--- | :--- |
-| **`apple-notes`** | Manage Apple Notes via memo CLI: create, search, edit. | • "Помоги мне использовать инструмент apple-notes"<br>• "Запусти скрипт для apple-notes"<br>• "Покажи справку по настройке apple-notes" |
-| **`apple-reminders`** | Apple Reminders via remindctl: add, list, complete. | • "Помоги мне использовать инструмент apple-reminders"<br>• "Запусти скрипт для apple-reminders"<br>• "Покажи справку по настройке apple-reminders" |
-| **`imessage`** | Send and receive iMessages/SMS via the imsg CLI on macOS. | • "Помоги мне использовать инструмент imessage"<br>• "Запусти скрипт для imessage"<br>• "Покажи справку по настройке imessage" |
-| **`macos-computer-use`** | | | • "Помоги мне использовать инструмент macos-computer-use"<br>• "Запусти скрипт для macos-computer-use"<br>• "Покажи справку по настройке macos-computer-use" |
-| **`findmy`** | Track Apple devices/AirTags via FindMy.app on macOS. | • "Помоги мне использовать инструмент findmy"<br>• "Запусти скрипт для findmy"<br>• "Покажи справку по настройке findmy" |
-
-
-## <a name="data-science"></a>📂 Data-science
-
-| Название навыка | Описание возможностей на русском | Примеры вызова в чате (по 3 варианта) |
-| :--- | :--- | :--- |
-| **`jupyter-live-kernel`** | Iterative Python via live Jupyter kernel (hamelnb). | • "Помоги мне использовать инструмент jupyter-live-kernel"<br>• "Запусти скрипт для jupyter-live-kernel"<br>• "Покажи справку по настройке jupyter-live-kernel" |
-
-
-## <a name="email"></a>📂 Электронная почта в терминале
-
-| Название навыка | Описание возможностей на русском | Примеры вызова в чате (по 3 варианта) |
-| :--- | :--- | :--- |
-| **`himalaya`** | Управление электронной почтой (IMAP/SMTP) прямо из консоли или чата. | • "Проверь свежие письма в ящике"<br>• "Напиши ответное письмо коллеге"<br>• "Найди письмо от техподдержки гитхаба" |
-
-
-## <a name="yuanbao"></a>📂 Yuanbao
-
-| Название навыка | Описание возможностей на русском | Примеры вызова в чате (по 3 варианта) |
-| :--- | :--- | :--- |
-| **`yuanbao`** | Yuanbao (元宝) groups: @mention users, query info/members. | • "Помоги мне использовать инструмент yuanbao"<br>• "Запусти скрипт для yuanbao"<br>• "Покажи справку по настройке yuanbao" |
-
-
-## <a name="autonomous-ai-agents"></a>📂 AI Агенты и делегирование
-
-| Название навыка | Описание возможностей на русском | Примеры вызова в чате (по 3 варианта) |
-| :--- | :--- | :--- |
-| **`hermes-voice-setup`** | Настройка распознавания голоса и синтеза речи (доступ к Svetlana 2x, Groq Whisper). | • "Включи скорость Svetlana на 2x"<br>• "Как изменить голос на мужской?"<br>• "Настрой авто-озвучивание моих ответов" |
-| **`codex`** | Delegate coding to OpenAI Codex CLI (features, PRs). | • "Помоги мне использовать инструмент codex"<br>• "Запусти скрипт для codex"<br>• "Покажи справку по настройке codex" |
-| **`claude-code`** | Delegate coding to Claude Code CLI (features, PRs). | • "Помоги мне использовать инструмент claude-code"<br>• "Запусти скрипт для claude-code"<br>• "Покажи справку по настройке claude-code" |
-| **`hermes-agent`** | Полное конфигурирование твоего Hermes Agent (модели, квоты, рестарты). | • "Покажи текущий конфиг Hermes"<br>• "Какая версия системы используется?"<br>• "Проверь здоровье агента через doctor" |
-| **`kanban-codex-lane`** | Use when a Hermes Kanban worker wants to run Codex CLI as an isolated implementation lane while Hermes keeps ownership of task lifecycle, reconciliation, testing, and handoff. | • "Помоги мне использовать инструмент kanban-codex-lane"<br>• "Запусти скрипт для kanban-codex-lane"<br>• "Покажи справку по настройке kanban-codex-lane" |
-| **`opencode`** | Delegate coding to OpenCode CLI (features, PR review). | • "Помоги мне использовать инструмент opencode"<br>• "Запусти скрипт для opencode"<br>• "Покажи справку по настройке opencode" |
-
-
-## <a name="research"></a>📂 Академический поиск и наука
-
-| Название навыка | Описание возможностей на русском | Примеры вызова в чате (по 3 варианта) |
-| :--- | :--- | :--- |
-| **`llm-wiki`** | Karpathy's LLM Wiki: build/query interlinked markdown KB. | • "Помоги мне использовать инструмент llm-wiki"<br>• "Запусти скрипт для llm-wiki"<br>• "Покажи справку по настройке llm-wiki" |
-| **`research-paper-writing`** | Write ML papers for NeurIPS/ICML/ICLR: design→submit. | • "Помоги мне использовать инструмент research-paper-writing"<br>• "Запусти скрипт для research-paper-writing"<br>• "Покажи справку по настройке research-paper-writing" |
-| **`arxiv`** | Мгновенный поиск научных статей directly на серверах ArXiv. | • "Найди свежие статьи про GRPO обучение"<br>• "Сделай выжимку статьи про Gemini 3.5"<br>• "Найди работы Ильи Суцкевера про ИИ" |
-| **`blogwatcher`** | Monitor blogs and RSS/Atom feeds via blogwatcher-cli tool. | • "Помоги мне использовать инструмент blogwatcher"<br>• "Запусти скрипт для blogwatcher"<br>• "Покажи справку по настройке blogwatcher" |
-| **`polymarket`** | Query Polymarket: markets, prices, orderbooks, history. | • "Помоги мне использовать инструмент polymarket"<br>• "Запусти скрипт для polymarket"<br>• "Покажи справку по настройке polymarket" |
-
-
-## <a name="creative"></a>📂 Креативность и дизайн
-
-| Название навыка | Описание возможностей на русском | Примеры вызова в чате (по 3 варианта) |
-| :--- | :--- | :--- |
-| **`touchdesigner-mcp`** | Control a running TouchDesigner instance via twozero MCP — create operators, set parameters, wire connections, execute Python, build real-time visuals. 36 native tools. | • "Помоги мне использовать инструмент touchdesigner-mcp"<br>• "Запусти скрипт для touchdesigner-mcp"<br>• "Покажи справку по настройке touchdesigner-mcp" |
-| **`sketch`** | Throwaway HTML mockups: 2-3 design variants to compare. | • "Помоги мне использовать инструмент sketch"<br>• "Запусти скрипт для sketch"<br>• "Покажи справку по настройке sketch" |
-| **`baoyu-comic`** | Knowledge comics (知识漫画): educational, biography, tutorial. | • "Помоги мне использовать инструмент baoyu-comic"<br>• "Запусти скрипт для baoyu-comic"<br>• "Покажи справку по настройке baoyu-comic" |
-| **`baoyu-infographic`** | Infographics: 21 layouts x 21 styles (信息图, 可视化). | • "Помоги мне использовать инструмент baoyu-infographic"<br>• "Запусти скрипт для baoyu-infographic"<br>• "Покажи справку по настройке baoyu-infographic" |
-| **`songwriting-and-ai-music`** | Songwriting craft and Suno AI music prompts. | • "Помоги мне использовать инструмент songwriting-and-ai-music"<br>• "Запусти скрипт для songwriting-and-ai-music"<br>• "Покажи справку по настройке songwriting-and-ai-music" |
-| **`popular-web-designs`** | 54 real design systems (Stripe, Linear, Vercel) as HTML/CSS. | • "Помоги мне использовать инструмент popular-web-designs"<br>• "Запусти скрипт для popular-web-designs"<br>• "Покажи справку по настройке popular-web-designs" |
-| **`claude-design`** | Design one-off HTML artifacts (landing, deck, prototype). | • "Помоги мне использовать инструмент claude-design"<br>• "Запусти скрипт для claude-design"<br>• "Покажи справку по настройке claude-design" |
-| **`design-md`** | Author/validate/export Google's DESIGN.md token spec files. | • "Помоги мне использовать инструмент design-md"<br>• "Запусти скрипт для design-md"<br>• "Покажи справку по настройке design-md" |
-| **`humanizer`** | Humanize text: strip AI-isms and add real voice. | • "Помоги мне использовать инструмент humanizer"<br>• "Запусти скрипт для humanizer"<br>• "Покажи справку по настройке humanizer" |
-| **`comfyui`** | Управление сервером графики ComfyUI, запуск генераций по сложным пайплайнам. | • "Запусти ComfyUI и проверь мои модели"<br>• "Установи недостающие узлы для этого воркфлоу"<br>• "Сделай генерацию по пайплайну FLUX" |
-| **`pixel-art`** | Pixel art w/ era palettes (NES, Game Boy, PICO-8). | • "Помоги мне использовать инструмент pixel-art"<br>• "Запусти скрипт для pixel-art"<br>• "Покажи справку по настройке pixel-art" |
-| **`vik-genimage`** | Генерация высококачественных картинок через Flux абсолютно бесплатно без лимитов. | • "Сделай фото кота в очках через vik-gen"<br>• "Нарисуй ретро-автомобиль на закате"<br>• "Создай 3D комнату программиста" |
-| **`p5js`** | p5.js sketches: gen art, shaders, interactive, 3D. | • "Помоги мне использовать инструмент p5js"<br>• "Запусти скрипт для p5js"<br>• "Покажи справку по настройке p5js" |
-| **`ascii-video`** | ASCII video: convert video/audio to colored ASCII MP4/GIF. | • "Помоги мне использовать инструмент ascii-video"<br>• "Запусти скрипт для ascii-video"<br>• "Покажи справку по настройке ascii-video" |
-| **`excalidraw`** | Hand-drawn Excalidraw JSON diagrams (arch, flow, seq). | • "Помоги мне использовать инструмент excalidraw"<br>• "Запусти скрипт для excalidraw"<br>• "Покажи справку по настройке excalidraw" |
-| **`pretext`** | Use when building creative browser demos with @chenglou/pretext — DOM-free text layout for ASCII art, typographic flow around obstacles, text-as-geometry games, kinetic typography, and text-powered generative art. Produces single-file HTML demos by default. | • "Помоги мне использовать инструмент pretext"<br>• "Запусти скрипт для pretext"<br>• "Покажи справку по настройке pretext" |
-| **`manim-video`** | Manim CE animations: 3Blue1Brown math/algo videos. | • "Помоги мне использовать инструмент manim-video"<br>• "Запусти скрипт для manim-video"<br>• "Покажи справку по настройке manim-video" |
-| **`architecture-diagram`** | Создание потрясающих SVG-схем системной архитектуры в темной теме. | • "Нарисуй схему архитектуры моего n8n бэкап скрипта"<br>• "Создай блок-схему взаимодействия с Google API"<br>• "Сделай красивый SVG граф процессов" |
-| **`ideation`** | Генерация project ideas via creative constraints. | • "Помоги мне использовать инструмент ideation"<br>• "Запусти скрипт для ideation"<br>• "Покажи справку по настройке ideation" |
-| **`baoyu-article-illustrator`** | Article illustrations: type × style × palette consistency. | • "Помоги мне использовать инструмент baoyu-article-illustrator"<br>• "Запусти скрипт для baoyu-article-illustrator"<br>• "Покажи справку по настройке baoyu-article-illustrator" |
-| **`ascii-art`** | Генерация графики из символов ASCII (pyfiglet, cowsay, и т.д.). | • "Нарисуй логотип 'Lumi' крупными ASCII буквами"<br>• "Пусть корова скажет 'Привет!' через cowsay"<br>• "Сделай ASCII арт из моей фотки" |
-
-
-## <a name="github"></a>📂 Гипер-управление GitHub
-
-| Название навыка | Описание возможностей на русском | Примеры вызова в чате (по 3 варианта) |
-| :--- | :--- | :--- |
-| **`codebase-inspection`** | Анализ и инспекция codebases w/ pygount: LOC, languages, ratios. | • "Помоги мне использовать инструмент codebase-inspection"<br>• "Запусти скрипт для codebase-inspection"<br>• "Покажи справку по настройке codebase-inspection" |
-| **`github-pr-workflow`** | Управление Pull Requests, ветками, коммитами и CI/CD гитхаба. | • "Создай ветку и сделай пул-реквест на GitHub"<br>• "Проверь статус билдов на гитхабе"<br>• "Добавь рецензента в последний PR" |
-| **`github-code-review`** | Review PRs: diffs, inline comments via gh or REST. | • "Помоги мне использовать инструмент github-code-review"<br>• "Запусти скрипт для github-code-review"<br>• "Покажи справку по настройке github-code-review" |
-| **`github-repo-management`** | Clone/create/fork repos; manage remotes, releases. | • "Помоги мне использовать инструмент github-repo-management"<br>• "Запусти скрипт для github-repo-management"<br>• "Покажи справку по настройке github-repo-management" |
-| **`github-auth`** | Настройка SSH ключей, токенов веб-доступа и авторизация gh-клиента. | • "Выполни авторизацию на гитхабе через gh CLI"<br>• "Проверь мои SSH ключи"<br>• "Создай новый HTTPS токен доступа" |
-| **`github-issues`** | Create, triage, label, assign GitHub issues via gh or REST. | • "Помоги мне использовать инструмент github-issues"<br>• "Запусти скрипт для github-issues"<br>• "Покажи справку по настройке github-issues" |
-
-
-## <a name="software-development"></a>📂 Разработка ПО и дебаг
-
-| Название навыка | Описание возможностей на русском | Примеры вызова в чате (по 3 варианта) |
-| :--- | :--- | :--- |
-| **`test-driven-development`** | TDD: enforce RED-GREEN-REFACTOR, tests before code. | • "Помоги мне использовать инструмент test-driven-development"<br>• "Запусти скрипт для test-driven-development"<br>• "Покажи справку по настройке test-driven-development" |
-| **`spike`** | Throwaway experiments to validate an idea before build. | • "Помоги мне использовать инструмент spike"<br>• "Запусти скрипт для spike"<br>• "Покажи справку по настройке spike" |
-| **`systematic-debugging`** | 4-phase root cause debugging: understand bugs before fixing. | • "Помоги мне использовать инструмент systematic-debugging"<br>• "Запусти скрипт для systematic-debugging"<br>• "Покажи справку по настройке systematic-debugging" |
-| **`debugging-hermes-tui-commands`** | Дебаг и отладка Hermes TUI slash commands: Python, gateway, Ink UI. | • "Помоги мне использовать инструмент debugging-hermes-tui-commands"<br>• "Запусти скрипт для debugging-hermes-tui-commands"<br>• "Покажи справку по настройке debugging-hermes-tui-commands" |
-| **`requesting-code-review`** | Pre-commit review: security scan, quality gates, auto-fix. | • "Помоги мне использовать инструмент requesting-code-review"<br>• "Запусти скрипт для requesting-code-review"<br>• "Покажи справку по настройке requesting-code-review" |
-| **`subagent-driven-development`** | Execute plans via delegate_task subagents (2-stage review). | • "Помоги мне использовать инструмент subagent-driven-development"<br>• "Запусти скрипт для subagent-driven-development"<br>• "Покажи справку по настройке subagent-driven-development" |
-| **`hermes-agent-skill-authoring`** | Author in-repo SKILL.md: frontmatter, validator, structure. | • "Помоги мне использовать инструмент hermes-agent-skill-authoring"<br>• "Запусти скрипт для hermes-agent-skill-authoring"<br>• "Покажи справку по настройке hermes-agent-skill-authoring" |
-| **`writing-plans`** | Write implementation plans: bite-sized tasks, paths, code. | • "Помоги мне использовать инструмент writing-plans"<br>• "Запусти скрипт для writing-plans"<br>• "Покажи справку по настройке writing-plans" |
-| **`plan`** | Plan mode: write markdown plan to .hermes/plans/, no exec. | • "Помоги мне использовать инструмент plan"<br>• "Запусти скрипт для plan"<br>• "Покажи справку по настройке plan" |
-| **`python-debugpy`** | Дебаг и отладка Python: pdb REPL + debugpy remote (DAP). | • "Помоги мне использовать инструмент python-debugpy"<br>• "Запусти скрипт для python-debugpy"<br>• "Покажи справку по настройке python-debugpy" |
-| **`node-inspect-debugger`** | Дебаг и отладка Node.js via --inspect + Chrome DevTools Protocol CLI. | • "Помоги мне использовать инструмент node-inspect-debugger"<br>• "Запусти скрипт для node-inspect-debugger"<br>• "Покажи справку по настройке node-inspect-debugger" |
-
-
-## <a name="mcp"></a>📂 Model Context Protocol
-
-| Название навыка | Описание возможностей на русском | Примеры вызова в чате (по 3 варианта) |
-| :--- | :--- | :--- |
-| **`native-mcp`** | MCP client: connect servers, register tools (stdio/HTTP). | • "Помоги мне использовать инструмент native-mcp"<br>• "Запусти скрипт для native-mcp"<br>• "Покажи справку по настройке native-mcp" |
-
-
-## <a name="productivity"></a>📂 Офис, Документы и Продуктивность
-
-| Название навыка | Описание возможностей на русском | Примеры вызова в чате (по 3 варианта) |
-| :--- | :--- | :--- |
-| **`notion`** | Работа со страницами и базами данных в Notion через ntn-клиент. | • "Добавь запись в мою рабочую базу Notion"<br>• "Прочитай содержание страницы 'Вики'"<br>• "Найди документы по ключевому слову" |
-| **`powerpoint`** | Create, read, edit .pptx decks, slides, notes, templates. | • "Помоги мне использовать инструмент powerpoint"<br>• "Запусти скрипт для powerpoint"<br>• "Покажи справку по настройке powerpoint" |
-| **`teams-meeting-pipeline`** | Operate the Teams meeting summary pipeline via Hermes CLI — summarize meetings, inspect pipeline status, replay jobs, manage Microsoft Graph subscriptions. | • "Помоги мне использовать инструмент teams-meeting-pipeline"<br>• "Запусти скрипт для teams-meeting-pipeline"<br>• "Покажи справку по настройке teams-meeting-pipeline" |
-| **`linear`** | Интеграция с таск-менеджером Linear через GraphQL API. | • "Покажи мои тикеты в Linear"<br>• "Создай новую задачу в доске разработки"<br>• "Отметь баг выполненным" |
-| **`maps`** | Геокодирование, построение маршрутов и таймзоны через OpenStreetMap. | • "Построй маршрут на карте"<br>• "Какая сейчас таймзона в Лондоне?"<br>• "Найди координаты города" |
-| **`nano-pdf`** | Edit PDF text/typos/titles via nano-pdf CLI (NL prompts). | • "Помоги мне использовать инструмент nano-pdf"<br>• "Запусти скрипт для nano-pdf"<br>• "Покажи справку по настройке nano-pdf" |
-| **`google-workspace`** | Полная интеграция с Календарем, Диском и Документами Google. | • "Покажи мои встречи на сегодня в календаре"<br>• "Запиши файл на мой Google Drive"<br>• "Создай гугл-документ 'Отчёт по ИИ'" |
-| **`airtable`** | Airtable REST API via curl. Records CRUD, filters, upserts. | • "Помоги мне использовать инструмент airtable"<br>• "Запусти скрипт для airtable"<br>• "Покажи справку по настройке airtable" |
-| **`ocr-and-documents`** | Извлечение структурированного текста из картинок и PDF документов. | • "Распознай текст с этой картинки"<br>• "Прочитай этот PDF файл и извлеки таблицы"<br>• "Конвертируй скан документа в текст" |
-
-
-## <a name="social-media"></a>📂 Social-media
-
-| Название навыка | Описание возможностей на русском | Примеры вызова в чате (по 3 варианта) |
-| :--- | :--- | :--- |
-| **`xurl`** | Автоматическая отправка твитов и поиск в Twitter (X). | • "Опубликуй твит о новой модели ИИ"<br>• "Найди твиты про deepseek за сегодня"<br>• "Напиши автору этого твита в DM" |
-
-
-## <a name="media"></a>📂 Медиа, Музыка и YouTube
-
-| Название навыка | Описание возможностей на русском | Примеры вызова в чате (по 3 варианта) |
-| :--- | :--- | :--- |
-| **`youtube-content`** | Быстрый сбор контекста, транскриптов и саммаризация YouTube роликов. | • "Сделай саммари по этому видео на ютубе"<br>• "Скачай субтитры к лекции Карпатого"<br>• "Преврати этот YouTube ролик в статью на русском" |
-| **`spotify`** | Управление воспроизведением музыки и плейлистами в Spotify на сопряженном плеере. | • "Включи плейлист для фокуса в Spotify"<br>• "Пропусти текущий трек"<br>• "Какая песня сейчас играет?" |
-| **`heartmula`** | HeartMuLa: Suno-like song generation from lyrics + tags. | • "Помоги мне использовать инструмент heartmula"<br>• "Запусти скрипт для heartmula"<br>• "Покажи справку по настройке heartmula" |
-| **`gif-search`** | Search/download GIFs from Tenor via curl + jq. | • "Помоги мне использовать инструмент gif-search"<br>• "Запусти скрипт для gif-search"<br>• "Покажи справку по настройке gif-search" |
-| **`songsee`** | Audio spectrograms/features (mel, chroma, MFCC) via CLI. | • "Помоги мне использовать инструмент songsee"<br>• "Запусти скрипт для songsee"<br>• "Покажи справку по настройке songsee" |
-
-
-## <a name="gaming"></a>📂 Игры и локальные сервера
-
-| Название навыка | Описание возможностей на русском | Примеры вызова в чате (по 3 варианта) |
-| :--- | :--- | :--- |
-| **`pokemon-player`** | Headless эмулятор для автоматического прохождения Покемонов. | • "Запусти игру Pokemon Red"<br>• "Сделай скриншот экрана игры"<br>• "Какая позиция у меня на карте?" |
-| **`minecraft-modpack-server`** | Конфигурирование серверов Майнкрафта на твоей машине. | • "Установи сборку Майнкрафта"<br>• "Запусти игровой сервер"<br>• "Проверь сетевой статус сервера" |
-
-
-## <a name="mlops"></a>📂 Машинное обучение и инференс
-
-| Название навыка | Описание возможностей на русском | Примеры вызова в чате (по 3 варианта) |
-| :--- | :--- | :--- |
-| **`llama-cpp`** | llama.cpp local GGUF inference + HF Hub model discovery. | • "Помоги мне использовать инструмент llama-cpp"<br>• "Запусти скрипт для llama-cpp"<br>• "Покажи справку по настройке llama-cpp" |
-| **`obliteratus`** | OBLITERATUS: abliterate LLM refusals (diff-in-means). | • "Помоги мне использовать инструмент obliteratus"<br>• "Запусти скрипт для obliteratus"<br>• "Покажи справку по настройке obliteratus" |
-| **`serving-llms-vllm`** | vLLM: high-throughput LLM serving, OpenAI API, quantization. | • "Помоги мне использовать инструмент serving-llms-vllm"<br>• "Запусти скрипт для serving-llms-vllm"<br>• "Покажи справку по настройке serving-llms-vllm" |
-| **`huggingface-hub`** | Скачивание и выгрузка моделей, наборов данных на Hugging Face. | • "Скачай модель GGUF из репозитория HF"<br>• "Найди датасеты про русский диалог на HuggingFace"<br>• "Какая модель сейчас популярна в хабе?" |
-| **`audiocraft-audio-generation`** | AudioCraft: MusicGen text-to-music, AudioGen text-to-sound. | • "Помоги мне использовать инструмент audiocraft-audio-generation"<br>• "Запусти скрипт для audiocraft-audio-generation"<br>• "Покажи справку по настройке audiocraft-audio-generation" |
-| **`segment-anything-model`** | SAM: zero-shot image segmentation via points, boxes, masks. | • "Помоги мне использовать инструмент segment-anything-model"<br>• "Запусти скрипт для segment-anything-model"<br>• "Покажи справку по настройке segment-anything-model" |
-| **`dspy`** | DSPy: declarative LM programs, auto-optimize prompts, RAG. | • "Помоги мне использовать инструмент dspy"<br>• "Запусти скрипт для dspy"<br>• "Покажи справку по настройке dspy" |
-| **`weights-and-biases`** | W&B: log ML experiments, sweeps, model registry, dashboards. | • "Помоги мне использовать инструмент weights-and-biases"<br>• "Запусти скрипт для weights-and-biases"<br>• "Покажи справку по настройке weights-and-biases" |
-| **`evaluating-llms-harness`** | lm-eval-harness: benchmark LLMs (MMLU, GSM8K, etc.). | • "Помоги мне использовать инструмент evaluating-llms-harness"<br>• "Запусти скрипт для evaluating-llms-harness"<br>• "Покажи справку по настройке evaluating-llms-harness" |
-
-
-
-## 🎮 Как это вызывать?
-Ты можешь отдавать эти команды прямо разговорным языком. Например:
-> *«Гермес, сделай фото кота в очках через vik-gen»*
-> *« Hermes, найди информацию о n8n в обсидиане»*
-
-Я сам пойму, какой навык загрузить, и выполню задачу! 🚀
+| **`airtable`** | Управляет записями Airtable (CRUD, фильтрация, обновление/вставка), автоматизируя работу с данными и экономя время пользователя. | • "Помоги мне использовать airtable"<br>• "Запусти скрипт для airtable"<br>• "Покажи справку по настройке airtable" |
+| **`apple-notes`** | Управляет заметками Apple (создание, поиск, редактирование) через CLI, обеспечивая удобное взаимодействие и повышая продуктивность пользователя. | • "Помоги мне использовать apple-notes"<br>• "Запусти скрипт для apple-notes"<br>• "Покажи справку по настройке apple-notes" |
+| **`apple-reminders`** | Управляет напоминаниями Apple (добавляет, просматривает, завершает), помогая пользователю эффективно организовывать задачи и не забыть о важном. | • "Помоги мне использовать apple-reminders"<br>• "Запусти скрипт для apple-reminders"<br>• "Покажи справку по настройке apple-reminders" |
+| **`architecture-diagram`** | Генерирует SVG-диаграммы архитектуры (облако, инфраструктура) в HTML, визуализируя сложные системы и упрощая их понимание и документирование. | • "Помоги мне использовать architecture-diagram"<br>• "Запусти скрипт для architecture-diagram"<br>• "Покажи справку по настройке architecture-diagram" |
+| **`arxiv`** | Ищет научные статьи на arXiv по ключевым словам, автору, категории или ID, помогая быстро находить нужные исследовательские работы. | • "Помоги мне использовать arxiv"<br>• "Запусти скрипт для arxiv"<br>• "Покажи справку по настройке arxiv" |
+| **`ascii-art`** | Создает ASCII-графику с помощью различных инструментов, добавляя креативные и стилизованные текстовые изображения для выразительности контента. | • "Помоги мне использовать ascii-art"<br>• "Запусти скрипт для ascii-art"<br>• "Покажи справку по настройке ascii-art" |
+| **`ascii-video`** | Конвертирует видео/аудио в цветное ASCII MP4/GIF, позволяя создавать уникальные визуальные эффекты и адаптировать медиа для разных целей. | • "Помоги мне использовать ascii-video"<br>• "Запусти скрипт для ascii-video"<br>• "Покажи справку по настройке ascii-video" |
+| **`audiocraft-audio-generation`** | Генерирует музыку и звуки из текста с помощью AudioCraft, позволяя создавать оригинальные аудиодорожки и эффекты без специальных навыков. | • "Помоги мне использовать audiocraft-audio-generation"<br>• "Запусти скрипт для audiocraft-audio-generation"<br>• "Покажи справку по настройке audiocraft-audio-generation" |
+| **`baoyu-article-illustrator`** | Создает иллюстрации для статей, поддерживая единообразие стиля и палитры, обеспечивая профессиональное и визуально привлекательное оформление материалов. | • "Помоги мне использовать baoyu-article-illustrator"<br>• "Запусти скрипт для baoyu-article-illustrator"<br>• "Покажи справку по настройке baoyu-article-illustrator" |
+| **`baoyu-comic`** | Генерирует образовательные комиксы (биографии, туториалы), представляя сложную информацию в увлекательной и легко усваиваемой форме. | • "Помоги мне использовать baoyu-comic"<br>• "Запусти скрипт для baoyu-comic"<br>• "Покажи справку по настройке baoyu-comic" |
+| **`baoyu-infographic`** | Создает инфографику с множеством макетов и стилей, визуализируя данные и информацию, делая их понятными и привлекательными. | • "Помоги мне использовать baoyu-infographic"<br>• "Запусти скрипт для baoyu-infographic"<br>• "Покажи справку по настройке baoyu-infographic" |
+| **`blogwatcher`** | Мониторит блоги и RSS/Atom ленты, помогая оставаться в курсе последних обновлений и новостей, экономя время на ручной проверке. | • "Помоги мне использовать blogwatcher"<br>• "Запусти скрипт для blogwatcher"<br>• "Покажи справку по настройке blogwatcher" |
+| **`claude-code`** | Делегирует задачи по написанию кода (функции, PR) Claude Code CLI, ускоряя процесс разработки и повышая продуктивность программиста. | • "Помоги мне использовать claude-code"<br>• "Запусти скрипт для claude-code"<br>• "Покажи справку по настройке claude-code" |
+| **`claude-design`** | Создает разовые HTML-артефакты (лендинги, презентации, прототипы), позволяя быстро получать готовые веб-элементы для разных целей. | • "Помоги мне использовать claude-design"<br>• "Запусти скрипт для claude-design"<br>• "Покажи справку по настройке claude-design" |
+| **`codebase-inspection`** | Инспектирует кодовые базы с помощью pygount (строки кода, языки, соотношения), предоставляя детальный анализ для управления проектом. | • "Помоги мне использовать codebase-inspection"<br>• "Запусти скрипт для codebase-inspection"<br>• "Покажи справку по настройке codebase-inspection" |
+| **`codex`** | Делегирует кодирование и создание PR через OpenAI Codex CLI, ускоряя разработку и автоматизируя рутинные задачи для пользователя. | • "Помоги мне использовать codex"<br>• "Запусти скрипт для codex"<br>• "Покажи справку по настройке codex" |
+| **`comfyui`** | Генерирует изображения, видео и аудио через ComfyUI, управляя установкой, моделями и рабочими процессами, позволяя пользователю гибко создавать и настраивать медиаконтент. | • "Помоги мне использовать comfyui"<br>• "Запусти скрипт для comfyui"<br>• "Покажи справку по настройке comfyui" |
+| **`debugging-hermes-tui-commands`** | Отлаживает слеш-команды Hermes TUI (Python, шлюз, Ink UI), обеспечивая их корректную работу и стабильность системы для пользователя. | • "Помоги мне использовать debugging-hermes-tui-commands"<br>• "Запусти скрипт для debugging-hermes-tui-commands"<br>• "Покажи справку по настройке debugging-hermes-tui-commands" |
+| **`design-md`** | Создает, проверяет и экспортирует файлы спецификаций токенов Google DESIGN.md, упрощая управление дизайн-системами и соблюдение стандартов для пользователя. | • "Помоги мне использовать design-md"<br>• "Запусти скрипт для design-md"<br>• "Покажи справку по настройке design-md" |
+| **`dogfood`** | Проводит исследовательское QA веб-приложений, находя ошибки, собирая доказательства и генерируя отчеты для повышения качества продукта. | • "Помоги мне использовать dogfood"<br>• "Запусти скрипт для dogfood"<br>• "Покажи справку по настройке dogfood" |
+| **`dspy`** | Использует DSPy для создания декларативных программ LM, автоматической оптимизации промптов и работы с RAG, повышая эффективность и качество языковых моделей. | • "Помоги мне использовать dspy"<br>• "Запусти скрипт для dspy"<br>• "Покажи справку по настройке dspy" |
+| **`evaluating-llms-harness`** | Использует lm-eval-harness для бенчмаркинга больших языковых моделей (LLMs), позволяя оценить их производительность и возможности по различным метрикам. | • "Помоги мне использовать evaluating-llms-harness"<br>• "Запусти скрипт для evaluating-llms-harness"<br>• "Покажи справку по настройке evaluating-llms-harness" |
+| **`excalidraw`** | Создает диаграммы Excalidraw в формате JSON (архитектурные, потоковые, последовательностей), позволяя пользователю быстро визуализировать идеи и структуры. | • "Помоги мне использовать excalidraw"<br>• "Запусти скрипт для excalidraw"<br>• "Покажи справку по настройке excalidraw" |
+| **`findmy`** | Отслеживает устройства Apple и AirTags через FindMy.app на macOS, помогая пользователю находить потерянные или украденные предметы. | • "Помоги мне использовать findmy"<br>• "Запусти скрипт для findmy"<br>• "Покажи справку по настройке findmy" |
+| **`gif-search`** | Ищет и скачивает GIF-изображения с Tenor через curl + jq, позволяя быстро находить и сохранять нужные файлы для коммуникации или контента. | • "Помоги мне использовать gif-search"<br>• "Запусти скрипт для gif-search"<br>• "Покажи справку по настройке gif-search" |
+| **`github-auth`** | Настраивает аутентификацию GitHub (HTTPS токены, SSH ключи, вход gh CLI), обеспечивая безопасный и удобный доступ к репозиториям и сервисам для пользователя. | • "Помоги мне использовать github-auth"<br>• "Запусти скрипт для github-auth"<br>• "Покажи справку по настройке github-auth" |
+| **`github-code-review`** | Проводит ревью запросов на слияние (PR), работая с diffs и встроенными комментариями через gh или REST, улучшая качество кода и сотрудничество. | • "Помоги мне использовать github-code-review"<br>• "Запусти скрипт для github-code-review"<br>• "Покажи справку по настройке github-code-review" |
+| **`github-issues`** | Создает, сортирует, маркирует и назначает задачи (issues) в GitHub через gh или REST, упрощая управление проектами и отслеживание задач для пользователя. | • "Помоги мне использовать github-issues"<br>• "Запусти скрипт для github-issues"<br>• "Покажи справку по настройке github-issues" |
+| **`github-pr-workflow`** | Управляет жизненным циклом GitHub PR (ветка, коммит, открытие, CI, слияние), автоматизируя и стандартизируя процесс разработки и интеграции кода. | • "Помоги мне использовать github-pr-workflow"<br>• "Запусти скрипт для github-pr-workflow"<br>• "Покажи справку по настройке github-pr-workflow" |
+| **`github-repo-management`** | Клонирует, создает, форкает репозитории и управляет удаленными и релизами на GitHub, обеспечивая полный контроль над кодом для пользователя. | • "Помоги мне использовать github-repo-management"<br>• "Запусти скрипт для github-repo-management"<br>• "Покажи справку по настройке github-repo-management" |
+| **`godmode`** | Снимает ограничения с LLM, используя техники вроде Parseltongue, GODMODE, ULTRAPLINIAN, для получения доступа к расширенным или скрытым возможностям моделей. | • "Помоги мне использовать godmode"<br>• "Запусти скрипт для godmode"<br>• "Покажи справку по настройке godmode" |
+| **`google-workspace`** | Позволяет использовать учетные данные Google OAuth2, интегрируя ИИ-агента с сервисами Google Workspace для расширения его функциональности. | • "Помоги мне использовать google-workspace"<br>• "Запусти скрипт для google-workspace"<br>• "Покажи справку по настройке google-workspace" |
+| **`heartmula`** | Генерирует песни, аналогичные Suno, на основе текста и тегов, позволяя быстро создавать музыкальные композиции по заданным входным данным. | • "Помоги мне использовать heartmula"<br>• "Запусти скрипт для heartmula"<br>• "Покажи справку по настройке heartmula" |
+| **`hermes-agent`** | Настраивает, расширяет или позволяет внести вклад в Hermes Agent, предоставляя возможность адаптировать агента под конкретные нужды или развивать его функционал. | • "Помоги мне использовать hermes-agent"<br>• "Запусти скрипт для hermes-agent"<br>• "Покажи справку по настройке hermes-agent" |
+| **`hermes-agent-skill-authoring`** | Создает документацию навыков в формате SKILL.md, включая фронтматтер, валидатор и структуру, обеспечивая стандартизированное описание и управление навыками агента. | • "Помоги мне использовать hermes-agent-skill-authoring"<br>• "Запусти скрипт для hermes-agent-skill-authoring"<br>• "Покажи справку по настройке hermes-agent-skill-authoring" |
+| **`hermes-voice-setup`** | Настраивает STT и TTS для Hermes Agent, включая провайдеров и ключи API, обеспечивая голосовое взаимодействие и устранение неполадок для пользователя. | • "Помоги мне использовать hermes-voice-setup"<br>• "Запусти скрипт для hermes-voice-setup"<br>• "Покажи справку по настройке hermes-voice-setup" |
+| **`himalaya`** | Управляет электронной почтой через IMAP/SMTP прямо из терминала, позволяя отправлять и получать письма напрямую из командной строки для автоматизации email-взаимодействия. | • "Помоги мне использовать himalaya"<br>• "Запусти скрипт для himalaya"<br>• "Покажи справку по настройке himalaya" |
+| **`huggingface-hub`** | Ищет, скачивает и загружает модели и датасеты через CLI HuggingFace, обеспечивая быстрый доступ и управление ресурсами Hugging Face Hub для разработки ИИ-моделей. | • "Помоги мне использовать huggingface-hub"<br>• "Запусти скрипт для huggingface-hub"<br>• "Покажи справку по настройке huggingface-hub" |
+| **`humanizer`** | Гуманизирует текст, удаляя "ИИ-измы" и добавляя естественный тон, чтобы сгенерированный ИИ текст звучал более живо и похоже на человеческую речь для пользователя. | • "Помоги мне использовать humanizer"<br>• "Запусти скрипт для humanizer"<br>• "Покажи справку по настройке humanizer" |
+| **`ideation`** | Генерирует идеи для проектов, используя творческие ограничения, что помогает находить новые концепции и подходы, стимулируя креативность и инновации пользователя. | • "Помоги мне использовать ideation"<br>• "Запусти скрипт для ideation"<br>• "Покажи справку по настройке ideation" |
+| **`imessage`** | Отправляет и получает iMessages/SMS через CLI imsg на macOS, обеспечивая программное управление сообщениями и позволяя автоматизировать коммуникацию для пользователя. | • "Помоги мне использовать imessage"<br>• "Запусти скрипт для imessage"<br>• "Покажи справку по настройке imessage" |
+| **`jupyter-live-kernel`** | Обеспечивает итеративную работу с Python через живое ядро Jupyter (hamelnb), позволяя выполнять код интерактивно и ускоряя разработку и эксперименты для пользователя. | • "Помоги мне использовать jupyter-live-kernel"<br>• "Запусти скрипт для jupyter-live-kernel"<br>• "Покажи справку по настройке jupyter-live-kernel" |
+| **`kanban-codex-lane`** | Позволяет работнику Kanban использовать Codex CLI как изолированный канал реализации, интегрируя его в рабочий процесс Hermes Kanban, сохраняя контроль над задачами, тестированием и передачей. | • "Помоги мне использовать kanban-codex-lane"<br>• "Запусти скрипт для kanban-codex-lane"<br>• "Покажи справку по настройке kanban-codex-lane" |
+| **`kanban-orchestrator`** | Предоставляет детальный плейбук декомпозиции и правила для профиля оркестратора в Kanban, помогая эффективно управлять потоком задач, направляя работу через систему и избегая самостоятельного выполнения. | • "Помоги мне использовать kanban-orchestrator"<br>• "Запусти скрипт для kanban-orchestrator"<br>• "Покажи справку по настройке kanban-orchestrator" |
+| **`kanban-worker`** | Предоставляет детальную информацию о подводных камнях, примерах и крайних случаях для работников Hermes Kanban, углубляя понимание рабочего процесса для более эффективного выполнения задач. | • "Помоги мне использовать kanban-worker"<br>• "Запусти скрипт для kanban-worker"<br>• "Покажи справку по настройке kanban-worker" |
+| **`linear`** | Инструмент для управления задачами, проектами и командами через GraphQL + curl, позволяющий эффективно организовывать работу и отслеживать прогресс. | • "Помоги мне использовать linear"<br>• "Запусти скрипт для linear"<br>• "Покажи справку по настройке linear" |
+| **`llama-cpp`** | Позволяет выполнять локальный вывод с моделями GGUF и находить их на HF Hub, обеспечивая гибкое и конфиденциальное использование языковых моделей. | • "Помоги мне использовать llama-cpp"<br>• "Запусти скрипт для llama-cpp"<br>• "Покажи справку по настройке llama-cpp" |
+| **`llm-wiki`** | Позволяет создавать и запрашивать взаимосвязанные базы знаний в формате Markdown, упорядочивая информацию и делая её легкодоступной для ИИ. | • "Помоги мне использовать llm-wiki"<br>• "Запусти скрипт для llm-wiki"<br>• "Покажи справку по настройке llm-wiki" |
+| **`macos-computer-use`** | Предоставляет ИИ-агенту возможность выполнять общие компьютерные задачи и взаимодействовать с операционной системой macOS, расширяя его функционал. | • "Помоги мне использовать macos-computer-use"<br>• "Запусти скрипт для macos-computer-use"<br>• "Покажи справку по настройке macos-computer-use" |
+| **`manim-video`** | Создает высококачественные математические и алгоритмические анимации Manim CE, помогая визуализировать сложные концепции для лучшего понимания. | • "Помоги мне использовать manim-video"<br>• "Запусти скрипт для manim-video"<br>• "Покажи справку по настройке manim-video" |
+| **`maps`** | Определяет геокоординаты, точки интереса, маршруты и часовые пояса через OpenStreetMap/OSRM, позволяя агенту эффективно работать с геоданными. | • "Помоги мне использовать maps"<br>• "Запусти скрипт для maps"<br>• "Покажи справку по настройке maps" |
+| **`minecraft-modpack-server`** | Размещает серверы модифицированного Minecraft (CurseForge, Modrinth), позволяя пользователям играть с друзьями и получать уникальный игровой опыт. | • "Помоги мне использовать minecraft-modpack-server"<br>• "Запусти скрипт для minecraft-modpack-server"<br>• "Покажи справку по настройке minecraft-modpack-server" |
+| **`nano-pdf`** | Редактирует текст, опечатки и заголовки в PDF-файлах через CLI, позволяя быстро вносить мелкие правки с помощью естественного языка. | • "Помоги мне использовать nano-pdf"<br>• "Запусти скрипт для nano-pdf"<br>• "Покажи справку по настройке nano-pdf" |
+| **`native-mcp`** | Выступает в роли MCP-клиента, подключаясь к серверам и регистрируя инструменты через stdio/HTTP, расширяя возможности ИИ-агента для взаимодействия. | • "Помоги мне использовать native-mcp"<br>• "Запусти скрипт для native-mcp"<br>• "Покажи справку по настройке native-mcp" |
+| **`node-inspect-debugger`** | Отлаживает Node.js-приложения через `--inspect` и Chrome DevTools Protocol CLI, помогая разработчикам быстро находить и исправлять ошибки. | • "Помоги мне использовать node-inspect-debugger"<br>• "Запусти скрипт для node-inspect-debugger"<br>• "Покажи справку по настройке node-inspect-debugger" |
+| **`notion`** | Взаимодействует с Notion API через ntn CLI для управления страницами, базами данных и Markdown, автоматизируя работу с информацией. | • "Помоги мне использовать notion"<br>• "Запусти скрипт для notion"<br>• "Покажи справку по настройке notion" |
+| **`obliteratus`** | Помогает агенту обходить отказы языковых моделей (LLM) с помощью метода diff-in-means, повышая эффективность и полноту получаемых ответов. | • "Помоги мне использовать obliteratus"<br>• "Запусти скрипт для obliteratus"<br>• "Покажи справку по настройке obliteratus" |
+| **`obsidian`** | Позволяет читать, искать, создавать и редактировать заметки в хранилище Obsidian, интегрируя ИИ-агента с личной базой знаний пользователя. | • "Помоги мне использовать obsidian"<br>• "Запусти скрипт для obsidian"<br>• "Покажи справку по настройке obsidian" |
+| **`ocr-and-documents`** | Извлекает текст из PDF-файлов и отсканированных документов с помощью pymupdf/marker-pdf, делая неструктурированную информацию доступной для обработки. | • "Помоги мне использовать ocr-and-documents"<br>• "Запусти скрипт для ocr-and-documents"<br>• "Покажи справку по настройке ocr-and-documents" |
+| **`opencode`** | Делегирует задачи по кодированию CLI OpenCode для создания фич и ревью Pull Request'ов, значительно ускоряя процесс разработки. | • "Помоги мне использовать opencode"<br>• "Запусти скрипт для opencode"<br>• "Покажи справку по настройке opencode" |
+| **`openhue`** | Управляет освещением, сценами и комнатами Philips Hue через CLI, позволяя удобно контролировать умное освещение. | • "Помоги мне использовать openhue"<br>• "Запусти скрипт для openhue"<br>• "Покажи справку по настройке openhue" |
+| **`p5js`** | Создает скетчи p5.js для генеративного искусства, шейдеров, интерактивных и 3D-проектов, позволяя быстро разрабатывать визуальные и интерактивные веб-проекты. | • "Помоги мне использовать p5js"<br>• "Запусти скрипт для p5js"<br>• "Покажи справку по настройке p5js" |
+| **`pixel-art`** | Генерирует пиксель-арт, используя палитры различных эпох (NES, Game Boy, PICO-8), что позволяет создавать стилизованные изображения с ретро-эффектом. | • "Помоги мне использовать pixel-art"<br>• "Запусти скрипт для pixel-art"<br>• "Покажи справку по настройке pixel-art" |
+| **`plan`** | Записывает план действий в Markdown-файл без немедленного выполнения, что позволяет структурировать и сохранять последовательность задач для будущей работы. | • "Помоги мне использовать plan"<br>• "Запусти скрипт для plan"<br>• "Покажи справку по настройке plan" |
+| **`pokemon-player`** | Играет в Pokemon через безголовый эмулятор с чтением RAM, что позволяет автоматизировать игровой процесс и исследовать механики игры. | • "Помоги мне использовать pokemon-player"<br>• "Запусти скрипт для pokemon-player"<br>• "Покажи справку по настройке pokemon-player" |
+| **`polymarket`** | Запрашивает данные с Polymarket, включая рынки, цены, стаканы ордеров и историю, что позволяет получать актуальную информацию для анализа и принятия решений. | • "Помоги мне использовать polymarket"<br>• "Запусти скрипт для polymarket"<br>• "Покажи справку по настройке polymarket" |
+| **`popular-web-designs`** | Предоставляет 54 реальные дизайн-системы (Stripe, Linear, Vercel) в виде HTML/CSS, что позволяет изучать и адаптировать лучшие практики веб-дизайна для своих проектов. | • "Помоги мне использовать popular-web-designs"<br>• "Запусти скрипт для popular-web-designs"<br>• "Покажи справку по настройке popular-web-designs" |
+| **`powerpoint`** | Создает, читает и редактирует презентации PowerPoint, слайды, заметки и шаблоны, что позволяет эффективно работать с презентациями и их содержимым. | • "Помоги мне использовать powerpoint"<br>• "Запусти скрипт для powerpoint"<br>• "Покажи справку по настройке powerpoint" |
+| **`pretext`** | Создаёт креативные браузерные демо, используя @chenglou/pretext для безDOM-ового текстового макета, что позволяет создавать уникальные текстовые визуализации и генеративное искусство в HTML. | • "Помоги мне использовать pretext"<br>• "Запусти скрипт для pretext"<br>• "Покажи справку по настройке pretext" |
+| **`python-debugpy`** | Отлаживает Python-код, используя pdb REPL и удаленный отладчик debugpy (DAP), что позволяет эффективно находить и исправлять ошибки в приложениях. | • "Помоги мне использовать python-debugpy"<br>• "Запусти скрипт для python-debugpy"<br>• "Покажи справку по настройке python-debugpy" |
+| **`requesting-code-review`** | Выполняет предкоммитный ревью кода, включая проверку безопасности, контроль качества и автоисправление, что позволяет улучшать качество и предотвращать уязвимости. | • "Помоги мне использовать requesting-code-review"<br>• "Запусти скрипт для requesting-code-review"<br>• "Покажи справку по настройке requesting-code-review" |
+| **`research-paper-writing`** | Пишет научные статьи по машинному обучению для конференций (NeurIPS/ICML/ICLR), от дизайна до подачи, что позволяет эффективно готовить и форматировать академические публикации. | • "Помоги мне использовать research-paper-writing"<br>• "Запусти скрипт для research-paper-writing"<br>• "Покажи справку по настройке research-paper-writing" |
+| **`segment-anything-model`** | Выполняет zero-shot сегментацию изображений с помощью точек, прямоугольников и масок, что позволяет быстро и гибко выделять объекты без предварительного обучения. | • "Помоги мне использовать segment-anything-model"<br>• "Запусти скрипт для segment-anything-model"<br>• "Покажи справку по настройке segment-anything-model" |
+| **`serving-llms-vllm`** | Обеспечивает высокопроизводительное развертывание LLM-моделей (vLLM) с поддержкой OpenAI API и квантования, что позволяет эффективно обслуживать большие языковые модели. | • "Помоги мне использовать serving-llms-vllm"<br>• "Запусти скрипт для serving-llms-vllm"<br>• "Покажи справку по настройке serving-llms-vllm" |
+| **`sketch`** | Создает черновые HTML-макеты для сравнения 2-3 вариантов дизайна, что позволяет быстро прототипировать и оценивать различные дизайнерские решения. | • "Помоги мне использовать sketch"<br>• "Запусти скрипт для sketch"<br>• "Покажи справку по настройке sketch" |
+| **`songsee`** | Генерирует аудиоспектрограммы и признаки (mel, chroma, MFCC) через CLI, предоставляя инструменты для детального анализа и обработки звуковых данных. | • "Помоги мне использовать songsee"<br>• "Запусти скрипт для songsee"<br>• "Покажи справку по настройке songsee" |
+| **`songwriting-and-ai-music`** | Оказывает поддержку в написании песен и генерирует музыкальные подсказки для Suno AI, ускоряя создание уникальных композиций и треков с ИИ. | • "Помоги мне использовать songwriting-and-ai-music"<br>• "Запусти скрипт для songwriting-and-ai-music"<br>• "Покажи справку по настройке songwriting-and-ai-music" |
+| **`spike`** | Выполняет быстрые тестовые эксперименты для проверки идей, позволяя оценить жизнеспособность концепции до начала полноценной разработки. | • "Помоги мне использовать spike"<br>• "Запусти скрипт для spike"<br>• "Покажи справку по настройке spike" |
+| **`spotify`** | Управляет Spotify: воспроизводит, ищет, ставит в очередь, управляет плейлистами и устройствами, обеспечивая полное удаленное управление музыкой. | • "Помоги мне использовать spotify"<br>• "Запусти скрипт для spotify"<br>• "Покажи справку по настройке spotify" |
+| **`subagent-driven-development`** | Выполняет планы через подопечных субагентов (delegate_task) с двухэтапной проверкой, повышая надежность и качество выполнения сложных задач. | • "Помоги мне использовать subagent-driven-development"<br>• "Запусти скрипт для subagent-driven-development"<br>• "Покажи справку по настройке subagent-driven-development" |
+| **`systematic-debugging`** | Использует 4-фазную отладку для поиска первопричин ошибок, помогая глубоко понять проблему перед её исправлением для более эффективных решений. | • "Помоги мне использовать systematic-debugging"<br>• "Запусти скрипт для systematic-debugging"<br>• "Покажи справку по настройке systematic-debugging" |
+| **`teams-meeting-pipeline`** | Управляет конвейером суммаризации встреч Teams через Hermes CLI, позволяя быстро суммировать собрания, проверять статус и управлять подписками Graph. | • "Помоги мне использовать teams-meeting-pipeline"<br>• "Запусти скрипт для teams-meeting-pipeline"<br>• "Покажи справку по настройке teams-meeting-pipeline" |
+| **`test-driven-development`** | Применяет TDD, требуя писать тесты до кода по методологии RED-GREEN-REFACTOR, что повышает качество и надежность разработки. | • "Помоги мне использовать test-driven-development"<br>• "Запусти скрипт для test-driven-development"<br>• "Покажи справку по настройке test-driven-development" |
+| **`touchdesigner-mcp`** | Управляет TouchDesigner через twozero MCP: создает операторы, настраивает параметры, выполняет Python для создания интерактивных визуализаций в реальном времени. | • "Помоги мне использовать touchdesigner-mcp"<br>• "Запусти скрипт для touchdesigner-mcp"<br>• "Покажи справку по настройке touchdesigner-mcp" |
+| **`vik-genimage`** | Генерирует высококачественные изображения через Pollinations (модель Flux), предоставляя возможность получать детализированные визуалы абсолютно бесплатно. | • "Помоги мне использовать vik-genimage"<br>• "Запусти скрипт для vik-genimage"<br>• "Покажи справку по настройке vik-genimage" |
+| **`webhook-subscriptions`** | Использует подписки на вебхуки для запуска агентов, позволяя им реагировать на внешние события, обеспечивая автоматизацию и оперативность действий. | • "Помоги мне использовать webhook-subscriptions"<br>• "Запусти скрипт для webhook-subscriptions"<br>• "Покажи справку по настройке webhook-subscriptions" |
+| **`weights-and-biases`** | Регистрирует эксперименты ML, проводит sweeps, управляет реестром моделей и дашбордами с W&B, обеспечивая комплексный мониторинг и управление ML-проектами. | • "Помоги мне использовать weights-and-biases"<br>• "Запусти скрипт для weights-and-biases"<br>• "Покажи справку по настройке weights-and-biases" |
+| **`writing-plans`** | Составляет планы реализации, разбивая задачи на мелкие шаги с путями и кодом, упорядочивая процесс разработки и делая его более предсказуемым. | • "Помоги мне использовать writing-plans"<br>• "Запусти скрипт для writing-plans"<br>• "Покажи справку по настройке writing-plans" |
+| **`xurl`** | Управляет X/Twitter через xurl CLI, позволяя публиковать, искать, отправлять DM и работать с медиа, обеспечивая эффективное взаимодействие. | • "Помоги мне использовать xurl"<br>• "Запусти скрипт для xurl"<br>• "Покажи справку по настройке xurl" |
+| **`youtube-content`** | Преобразует транскрипты YouTube-видео в резюме, ветки и посты для блогов, упрощая создание текстового контента и экономя время на его переработку. | • "Помоги мне использовать youtube-content"<br>• "Запусти скрипт для youtube-content"<br>• "Покажи справку по настройке youtube-content" |
+| **`yuanbao`** | Yuanbao позволяет упоминать пользователей и запрашивать данные о группе/участниках, что упрощает управление коммуникациями и доступом к информации внутри сообществ. | • "Помоги мне использовать yuanbao"<br>• "Запусти скрипт для yuanbao"<br>• "Покажи справку по настройке yuanbao" |
