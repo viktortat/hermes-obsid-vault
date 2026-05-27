@@ -10,4 +10,4 @@ _(пусто)_
 - [[wiki/sources/hermes-agent-habr-article|Дрессировка Hermes Agent на VPS]] — Habr, автор Neo Davinchi (07.05.2026)
 
 ## Queries
-_(пусто)_
+- [[wiki/queries/prilozhenie-zvonilka|Приложение-звонилка]] — идея: создать приложение для звонков-уведомлений
