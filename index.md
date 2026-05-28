@@ -2,6 +2,7 @@
 
 ## Concepts
 - [[wiki/concepts/hermes-agent|Hermes Agent]] — автономный AI-агент от Nous Research
+- [[wiki/concepts/n8n-docker-setup|n8n Docker Setup]] — конфигурация, пути и остановка/запуск n8n в Docker
 
 ## Entities
 _(пусто)_
